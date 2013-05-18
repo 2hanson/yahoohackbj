@@ -15,12 +15,10 @@ class JobItem(Item):
 
 class TalkItem(Item):
     title = Field()
-    company = Field()
     companyLogo = Field()
     link = Field()
     dateTime = Field()
     address = Field()
-    industryCategory = Field()
     applicants = Field()
     pass
 
