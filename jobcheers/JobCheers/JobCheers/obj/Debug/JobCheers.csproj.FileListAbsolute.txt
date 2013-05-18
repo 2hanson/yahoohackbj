@@ -1,0 +1,5 @@
+D:\Projects\Web\JobCheers\JobCheers\bin\JobCheers.dll
+D:\Projects\Web\JobCheers\JobCheers\bin\JobCheers.pdb
+D:\Projects\Web\JobCheers\JobCheers\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Web\JobCheers\JobCheers\obj\Debug\JobCheers.dll
+D:\Projects\Web\JobCheers\JobCheers\obj\Debug\JobCheers.pdb
