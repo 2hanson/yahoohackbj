@@ -1,0 +1,162 @@
+﻿body{
+margin:0 auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+width:100%;
+scroll:no; 
+overflow-x:hidden; 
+overflow-y:hidden;
+overflow:hidden; 
+}
+.head {
+height:144px;
+clear:both;
+clip:none;
+float:left
+}
+.head .con { 
+width:100%;
+height:65px;
+background:url(../images/topright.jpg) repeat-x top; 
+ 
+}
+.con .conleft { 
+float:left;
+padding:0 0 0 7px;
+margin:0;
+}
+
+.head .daohang{  
+background:url(../images/daohangbar.png) repeat-x top; 
+color:#FFFFFF;
+font-size:12px;
+font-weight:600;
+display:block;
+border-top:0px solid #fff;
+width:100%; 
+border-left:0px solid red;
+border-right:0px solid red;
+border-top:1px solid #333e5e;
+border-bottom:1px solid #333e5e; 
+}
+
+.head .content  
+{
+}
+
+.head .foot 
+{
+    background:url(../images/footerbar.png) repeat-x top;  
+    padding-left:0px;
+    font-size:small;
+    font-family:@微软雅黑;
+    color:Gray;
+    text-align:center; 
+}
+.head .foot .copyright
+{ 
+    font-size:small;
+     font-family:@微软雅黑;
+     color:Gray;
+     text-align:center; 
+}
+
+.head .daohang h2 {
+font-size:12px;
+color:#6B7A96;
+padding:0;
+margin:28px 0 0;
+line-height:15px;
+display:block;
+}
+a.he { text-decoration:none;color:#6B7A96; font-weight:normal; line-height:14px; font-size:12px;}
+a.he:link{ text-decoration:none;color:#6B7A96;}
+a.he:visited{ text-decoration:none;color:#6B7A96;}
+a.he:hover{	text-decoration:none;color: #0084DB;z-index:1;}
+.daohang a.dh {
+width:82px;
+height:24px;
+margin:0 1px;
+float:left;
+text-align:center;
+line-height:24px;
+color: #EAECEC;
+text-decoration:none;
+font-weight:bold;
+}
+.daohang a.dh:link {
+text-decoration:none;
+}
+.daohang a.dh:visited {
+text-decoration:none;}
+.daohang a.dh:hover {
+background:#5B6C8B url(../pic/button.gif) no-repeat bottom;
+color:#6B7A96;
+text-decoration:none;
+}
+
+.head .daohang .daohanglayout
+{
+    width:100%;
+    height:45px;
+}
+.head .daohang .daohanglayout .daohanglayoutleft{
+     
+}
+.head .daohang .daohanglayout .daohanglayoutright{
+    width:100px;
+}
+.head .daohang .daohanglayout .daohanglayoutright .morediv{
+    width:100%;
+    height:30px;
+    font-size:medium; 
+    cursor:pointer;
+}
+
+.head .daohang .menu li{
+    display: inline-block;
+    zoom: 1; *display: inline; /* IE < 8: fake inline-block margin: 0.5em 1em 0.5em 0;*/
+    width: 100px;
+    line-height: 2em;
+    text-align: center;
+    border-width: 0px;
+    margin: 0em 1em 0.5em 0;
+    cursor: pointer;
+}
+
+.head .daohang .menu li .menutable
+{
+    width:100%;
+}
+
+.head .daohang .menu li .menutable tr .leftCorner
+{
+    width:5px;
+}
+
+.head .daohang .menu li .menutable tr .midmenuitem
+{
+    
+}
+
+.head .daohang .menu li .menutable tr .rightCorner
+{
+    width:5px; 
+}
+
+.head .daohang .menu li .menutable tr .leftCornersel
+{
+    background:url(../images/menuleft.png); 
+    width:5px;
+}
+
+.head .daohang .menu li .menutable tr .midmenuitemsel
+{
+     background:url(../images/menumid.png) repeat-x top; 
+}
+
+.head .daohang .menu li .menutable tr .rightCornersel
+{
+    background:url(../images/menuright.png); 
+    width:5px; 
+}

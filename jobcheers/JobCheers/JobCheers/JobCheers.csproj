@@ -52,6 +52,15 @@
   <ItemGroup>
     <Content Include="ClientCSS\schedule.css" />
     <Content Include="ClientCSS\timelinecss.css" />
+    <Content Include="Client\images\job.png" />
+    <Content Include="Client\images\lhb.png" />
+    <Content Include="Client\images\rhb.png" />
+    <Content Include="Client\images\rhbh.png" />
+    <Content Include="Client\images\talk.png" />
+    <Content Include="Client\persons\Havin.jpg" />
+    <Content Include="Client\persons\James.jpg" />
+    <Content Include="Client\persons\John.jpg" />
+    <Content Include="Client\persons\Shiguang.jpg" />
     <Content Include="Client\Schedule.aspx" />
     <Content Include="Client\TimeLine.aspx" />
     <Content Include="ErrorPage.aspx" />
@@ -117,8 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="build\" />
-    <Folder Include="Client\images\" />
-    <Folder Include="Client\persons\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

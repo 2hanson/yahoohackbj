@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\liuzk\Desktop\Deploy" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="ErrorPage.aspx" publishTime="05/19/2013 03:19:56" />
+    <file relUrl="Global.asax" publishTime="05/18/2013 12:59:24" />
+    <file relUrl="images/topright.jpg" publishTime="05/17/2013 16:56:47" />
+    <file relUrl="bin/JobCheers.dll" publishTime="05/19/2013 09:51:41" />
+    <file relUrl="Client/persons/John.jpg" publishTime="05/19/2013 04:20:00" />
+    <file relUrl="Client/Schedule.aspx" publishTime="05/19/2013 08:46:21" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="05/18/2013 12:59:24" />
+    <file relUrl="images/daohangbar.png" publishTime="05/17/2013 17:26:08" />
+    <file relUrl="Client/images/lhb.png" publishTime="05/19/2013 00:30:26" />
+    <file relUrl="Client/images/talk.png" publishTime="05/19/2013 02:32:58" />
+    <file relUrl="images/footerbar.png" publishTime="05/17/2013 20:03:33" />
+    <file relUrl="Client/images/job.png" publishTime="05/19/2013 02:31:14" />
+    <file relUrl="bin/JobCheers.pdb" publishTime="05/19/2013 09:51:41" />
+    <file relUrl="MainFrame/Main.aspx" publishTime="05/19/2013 02:33:39" />
+    <file relUrl="Client/persons/Shiguang.jpg" publishTime="05/19/2013 04:20:46" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="05/18/2013 12:59:24" />
+    <file relUrl="ClientCSS/timelinecss.css" publishTime="05/19/2013 09:30:27" />
+    <file relUrl="Client/images/rhbh.png" publishTime="05/19/2013 00:35:58" />
+    <file relUrl="MainFrame/maincss.css" publishTime="05/19/2013 00:46:25" />
+    <file relUrl="Client/images/rhb.png" publishTime="05/19/2013 00:34:18" />
+    <file relUrl="Client/TimeLine.aspx" publishTime="05/19/2013 09:49:07" />
+    <file relUrl="Client/persons/James.jpg" publishTime="05/19/2013 04:21:28" />
+    <file relUrl="images/yahoologo.png" publishTime="05/17/2013 17:19:30" />
+    <file relUrl="ClientCSS/schedule.css" publishTime="05/19/2013 00:59:01" />
+    <file relUrl="Client/persons/Havin.jpg" publishTime="05/19/2013 03:58:38" />
+    <file relUrl="images/menumid.png" publishTime="05/17/2013 21:42:00" />
+    <file relUrl="images/menuright.png" publishTime="05/17/2013 21:43:26" />
+    <file relUrl="images/sch.png" publishTime="05/19/2013 00:50:06" />
+    <file relUrl="Web.config" publishTime="05/19/2013 09:54:31" />
+    <file relUrl="images/menuleft.png" publishTime="05/17/2013 21:40:45" />
+    <file relUrl="images/jobcheerslogo.jpg" publishTime="05/17/2013 16:53:27" />
+    <file relUrl="Styles/Site.css" publishTime="05/18/2013 12:59:24" />
+    <file relUrl="images/scheduletag.png" publishTime="05/18/2013 23:45:51" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="05/18/2013 12:59:24" />
+  </publishProfile>
+</publishData>
