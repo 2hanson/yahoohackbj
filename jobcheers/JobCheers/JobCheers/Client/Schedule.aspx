@@ -98,13 +98,32 @@
               int cuid =Int32.Parse(dr["JLSchedule_ID"].ToString());
               if (onlyid != cuid)
               {
+                  string stype = dr["stype"].ToString();
+                  if (stype == "0")
+                  {
+                      stype = "简单"; 
+                  }
+                  else if (stype == "1")
+                  {
+                      stype = "中等";
+                  }
+                  else if (stype == "2")
+                  {
+                      stype = "困难";
+                  }
+                  else if (stype == "3")
+                  {
+                      stype = "综合";
+                  }
+                  
                   //没行生成一个
                   string strHtml = "<li> <div><div><img src='" + dr["CompanyLogo"].ToString() + "'/> </div>";
                   strHtml += "<div class='scheduletagDiv'><a>●</a>工作攻略</div><div class='scheduleDesDiv'>";
                   strHtml += dr["place"].ToString();
                   strHtml += "  ";
                   strHtml += dr["JobCategory"].ToString();
-
+                  strHtml += "  "; 
+                  strHtml += stype;
                   strHtml += "</div></div></li>";
                   this.Response.Write(strHtml);
               }
@@ -131,7 +150,7 @@
         <div>
             <div><img src="http://0.f1.dajieimg.com/group1/M00/28/68/CgogyFFhTlmAYnMeAAAAe6qVTF0062m.png" width="20px"  height="20px" /> </div>
             <div class="scheduletagDiv"><a>●</a>工作攻略</div>
-            <div  class="scheduleDesDiv">上海 项目经理</div>
+            <div  class="scheduleDesDiv">上海 项目经理</div> 
         </div>
       </li>
       <li>

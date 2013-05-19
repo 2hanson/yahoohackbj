@@ -51,7 +51,7 @@ namespace JobCheers.Client
         {
             try
             {
-                string sql = @"select distinct a.JLSchedule_ID,a.place, c.JobCategory,d.CompanyLogo
+                string sql = @"select distinct a.JLSchedule_ID,a.place,a.stype, c.JobCategory,d.CompanyLogo
 from JL_JobLandingSchedule as a
 join JL_TimeLine as b on b.JLSchedule_ID = a.JLSchedule_ID
 join JL_PositionOffer as c on c.PositionOffer_ID = b.PositionOffer_ID	
